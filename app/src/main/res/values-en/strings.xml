@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_name">nombre</string>
+    <string name="hint_lastname">apellido</string>
+    <string name="hint_identification">identificación</string>
+    <string name="hint_email">correo</string>
+    <string name="hint_read">leer datos</string>
+    <string name="message_validation">Debes ingresar una identificación</string>
+
+</resources>

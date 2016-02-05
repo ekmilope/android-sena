@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText android:hint="@string/hint_name"
+        android:textColor="@color/colorPrimaryDark" android:id="@+id/edit_fire_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:hint="@string/hint_lastname"
+        android:textColor="@color/colorPrimaryDark" android:id="@+id/edit_fire_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:hint="@string/hint_identification" android:inputType="number"
+        android:textColor="@color/colorPrimaryDark" android:id="@+id/edit_fire_identification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:hint="@string/hint_email" android:inputType="textWebEmailAddress"
+        android:textColor="@color/colorPrimaryDark" android:id="@+id/edit_fire_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_fire_save"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:text="guardar" android:layout_marginBottom="40dp"/>
+
+
+    <EditText android:hint="@string/hint_identification" android:inputType="number"
+        android:textColor="@color/colorPrimaryDark" android:id="@+id/read_fire_identification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/button_fire_read"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_read"/>
+
+</LinearLayout>
