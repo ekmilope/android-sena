@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Sena1025844</string>
-        <string name="hint_name">nombre</string>
-        <string name="hint_lastname">apellido</string>
-        <string name="hint_identification">identificación</string>
-        <string name="hint_email">correo</string>
-        <string name="hint_read">leer datos</string>
-        <string name="message_validation">Debes ingresar una identificación</string>
+    <string name="hint_name">nombre</string>
+    <string name="hint_lastname">apellido</string>
+    <string name="hint_identification">identificación</string>
+    <string name="hint_email">correo</string>
+    <string name="hint_read">leer datos</string>
+    <string name="message_validation">Debes ingresar una identificación</string>
 
-    </resources>
+</resources>
